@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="mt-32 ">
+    <div className="mt-32">
       <h1 className="text-center text-5xl font-bold color-[#0B0B0B]  mb-10">
         I Grow By Helping People In Need
       </h1>
