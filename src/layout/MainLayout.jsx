@@ -13,6 +13,7 @@ const MainLayout = () => {
         <NavBar />
         <Banner />
       </div>
+
       <Outlet />
     </div>
   );
