@@ -42,12 +42,14 @@ const Donation = () => {
         </div>
       )}
       <div className="text-center mt-5">
-        <button
-          onClick={() => setShowMore(!ShowMore)}
-          className="btn btn-accent text-white"
-        >
-          See All
-        </button>
+        {donation.length > 4 && (
+          <button
+            onClick={() => setShowMore(!ShowMore)}
+            className="btn btn-accent text-white"
+          >
+            {ShowMore ? "See less" : "See more"}
+          </button>
+        )}
       </div>
     </div>
   );

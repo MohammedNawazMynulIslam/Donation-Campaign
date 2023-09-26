@@ -9,6 +9,7 @@ const ViewDetails = ({ card }) => {
     text_button_bg,
     price,
   } = card;
+
   return (
     <div>
       <div className="relative">

@@ -12,7 +12,6 @@ const DonationSection = () => {
     const findCard = selectedCards?.find((Carded) => Carded.id === id);
     setCard(findCard);
   }, [id, selectedCards]);
-  console.log(card);
 
   return (
     <div>
