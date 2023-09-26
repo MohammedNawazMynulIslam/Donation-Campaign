@@ -20,8 +20,8 @@ const DonationSectionCard = ({ card }) => {
   };
 
   return (
-    <div>
-      <div className="card card-side w-[648px] h-[200px]" style={cardStyle}>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="card card-side w-[648px] h-[250px]" style={cardStyle}>
         <figure>
           <img src={picture} />
         </figure>

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import DonationSectionCard from "./DonationSectionCard";
 
 const DonationSection = () => {
   const [card, setCard] = useState({});
@@ -13,11 +12,7 @@ const DonationSection = () => {
     setCard(findCard);
   }, [id, selectedCards]);
 
-  return (
-    <div>
-      <DonationSectionCard card={card}></DonationSectionCard>
-    </div>
-  );
+  return <div> </div>;
 };
 
 export default DonationSection;

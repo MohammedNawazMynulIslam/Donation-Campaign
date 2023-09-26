@@ -13,7 +13,7 @@ const MainLayout = () => {
         <NavBar />
         <Banner />
       </div>
-      <div className="py-10">
+      <div className="py-10 container mx-auto">
         <Outlet />
       </div>
     </div>
