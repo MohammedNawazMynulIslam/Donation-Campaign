@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const DonationSectionCard = ({ card }) => {
   const {
     id,
@@ -35,13 +37,14 @@ const DonationSectionCard = ({ card }) => {
           <p className="" style={textColor}>
             ${price}
           </p>
-
-          <button
-            className="btn text-white w-[141px] h-[40px] px-[9px] py-[16px]"
-            style={cardStyle}
-          >
-            View Details
-          </button>
+          <Link to={`/donationSection/${id}`}>
+            <button
+              className="btn text-white w-[141px] h-[40px] px-[9px] py-[16px]"
+              style={cardStyle}
+            >
+              View Details
+            </button>
+          </Link>
         </div>
       </div>
     </div>
