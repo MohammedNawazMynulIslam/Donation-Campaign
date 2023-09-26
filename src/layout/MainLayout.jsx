@@ -13,8 +13,9 @@ const MainLayout = () => {
         <NavBar />
         <Banner />
       </div>
-
-      <Outlet />
+      <div className="py-10">
+        <Outlet />
+      </div>
     </div>
   );
 };

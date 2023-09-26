@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "picture": "https://i.ibb.co/gZ41H0n/Education.png",
     "title": "Education for All",
     "category": "Education",
@@ -8,10 +8,10 @@
     "card_bg": "rgba(121, 194, 63, 0.15)",
     "text_button_bg": "rgba(121, 194, 63, 1.0)",
     "description": "Empower through quality education",
-    "price": 40
+    "price": 40.00
   },
   {
-    "id": 2,
+    "id": "2",
     "picture": "https://i.ibb.co/86QFhLK/Food.png",
     "title": "Clean Water Initiative",
     "category": "Water",
@@ -19,10 +19,10 @@
     "card_bg": "rgba(0, 82, 255, 0.15)",
     "text_button_bg": "rgba(0, 82, 255, 1.0)",
     "description": "Ensure access to clean, safe water",
-    "price": 30
+    "price": 30.00
   },
   {
-    "id": 3,
+    "id": "3",
     "picture": "https://i.ibb.co/w799J3M/Health.png",
     "title": "Medical Relief",
     "category": "Health",
@@ -30,10 +30,10 @@
     "card_bg": "rgba(255, 68, 74, 0.149)",
     "text_button_bg": "rgba(255, 68, 74, 1)",
     "description": "Provide healthcare to those in need",
-    "price": 60
+    "price": 60.00
   },
   {
-    "id": 4,
+    "id": "4",
     "picture": "https://i.ibb.co/9HB4ghM/Clothing.png",
     "title": "Shelter for the Homeless",
     "category": "Shelter",
@@ -41,10 +41,10 @@
     "card_bg": "rgba(128, 0, 128, 0.1)",
     "text_button_bg": "rgba(128, 0, 128, 0.4)",
     "description": "Offer safe haven to the homeless",
-    "price": 70
+    "price": 70.00
   },
   {
-    "id": 5,
+    "id": "5",
     "picture": "https://i.ibb.co/gZ41H0n/Education.png",
     "title": "Education for All",
     "category": "Education",
@@ -52,10 +52,10 @@
     "card_bg": "rgba(121, 194, 63, 0.15)",
     "text_button_bg": "rgba(121, 194, 63, 1.0)",
     "description": "Empower through quality education",
-    "price": 40
+    "price": 40.00
   },
   {
-    "id": 6,
+    "id": "6",
     "picture": "https://i.ibb.co/86QFhLK/Food.png",
     "title": "Clean Water Initiative",
     "category": "Water",
@@ -63,10 +63,10 @@
     "card_bg": "rgba(0, 82, 255, 0.15)",
     "text_button_bg": "rgba(0, 82, 255, 1.0)",
     "description": "Ensure access to clean, safe water",
-    "price": 30
+    "price": 30.00
   },
   {
-    "id": 7,
+    "id": "7",
     "picture": "https://i.ibb.co/w799J3M/Health.png",
     "title": "Medical Relief",
     "category": "Health",
@@ -74,10 +74,10 @@
     "card_bg": "rgba(255, 68, 74, 0.149)",
     "text_button_bg": "rgba(255, 68, 74, 1)",
     "description": "Provide healthcare to those in need",
-    "price": 60
+    "price": 60.00
   },
   {
-    "id": 8,
+    "id": "8",
     "picture": "https://i.ibb.co/9HB4ghM/Clothing.png",
     "title": "Shelter for the Homeless",
     "category": "Shelter",
@@ -85,10 +85,10 @@
     "card_bg": "rgba(128, 0, 128, 0.1)",
     "text_button_bg": "rgba(128, 0, 128, 0.4)",
     "description": "Offer safe haven to the homeless",
-    "price": 70
+    "price": 70.00
   },
   {
-    "id": 9,
+    "id": "9",
     "picture": "https://i.ibb.co/gZ41H0n/Education.png",
     "title": "Education for All",
     "category": "Education",
@@ -96,10 +96,10 @@
     "card_bg": "rgba(121, 194, 63, 0.15)",
     "text_button_bg": "rgba(121, 194, 63, 1.0)",
     "description": "Empower through quality education",
-    "price": 40
+    "price": 40.00
   },
   {
-    "id": 10,
+    "id": "10",
     "picture": "https://i.ibb.co/86QFhLK/Food.png",
     "title": "Clean Water Initiative",
     "category": "Water",
@@ -107,10 +107,10 @@
     "card_bg": "rgba(0, 82, 255, 0.15)",
     "text_button_bg": "rgba(0, 82, 255, 1.0)",
     "description": "Ensure access to clean, safe water",
-    "price": 30
+    "price": 30.00
   },
   {
-    "id": 11,
+    "id": "11",
     "picture": "https://i.ibb.co/w799J3M/Health.png",
     "title": "Medical Relief",
     "category": "Health",
@@ -118,10 +118,10 @@
     "card_bg": "rgba(255, 68, 74, 0.149)",
     "text_button_bg": "rgba(255, 68, 74, 1)",
     "description": "Provide healthcare to those in need",
-    "price": 60
+    "price": 60.00
   },
   {
-    "id": 12,
+    "id": "12",
     "picture": "https://i.ibb.co/9HB4ghM/Clothing.png",
     "title": "Shelter for the Homeless",
     "category": "Shelter",
@@ -129,7 +129,7 @@
     "card_bg": "rgba(128, 0, 128, 0.1)",
     "text_button_bg": "rgba(128, 0, 128, 0.4)",
     "description": "Offer safe haven to the homeless",
-    "price": 70
+    "price": 70.00
   }
 
 ]
