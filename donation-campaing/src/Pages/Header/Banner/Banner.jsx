@@ -1,16 +1,16 @@
 const Banner = () => {
   return (
-    <div className="mt-32">
-      <h1 className="text-center text-5xl font-bold color-[#0B0B0B]  mb-10">
+    <div className="mt-32 ">
+      <h1 className="text-center text-2xl md:mt-64   lg:text-5xl font-bold color-[#0B0B0B]  mb-10">
         I Grow By Helping People In Need
       </h1>
-      <div className="text-center">
+      <div className=" lg:text-center ">
         <input
-          className="w-[400px] h-12 rounded-lg px-5 border border-[#DEDEDE]"
+          className="w-[200px]  lg:w-[400px] h-12 rounded-lg px-5 border border-[#DEDEDE] mb-2 md:mb-0"
           type="text"
           placeholder="Search here..."
-        ></input>
-        <button className="w-[110px] h-12 bg-[#FF444A] text-white -ml-10 rounded-r-lg text-center ">
+        />
+        <button className="md:w-[100px]  lg:w-[110px] h-12 bg-[#FF444A] text-white rounded-r-lg text-center">
           Search
         </button>
       </div>
