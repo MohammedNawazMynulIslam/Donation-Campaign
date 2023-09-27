@@ -1,5 +1,4 @@
-import React from "react";
-import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
+import { PieChart, Pie, Cell, Legend } from "recharts";
 import { useLoaderData } from "react-router-dom";
 
 const Statistic = () => {
@@ -18,7 +17,7 @@ const Statistic = () => {
     { name: "Total Donation", value: otherDonations },
   ];
 
-  const COLORS = ["#0088FE", "#00C49F"];
+  const COLORS = ["#00C49F", "#FF444A"];
 
   const formatPercent = (value) => `${(value * 100).toFixed(2)}%`;
 
