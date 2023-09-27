@@ -9,14 +9,19 @@ const ViewDetails = ({ card }) => {
     text_button_bg,
     price,
   } = card;
-
+  const cardStyle = {
+    background: text_button_bg,
+  };
   return (
     <div>
       <div className="relative">
         <p>
           <img className="w-[1320px] h-[700px]" src={picture} alt="" />
         </p>
-        <button className="inline-flex p-5 justify-center items-center gap-2 bg-[#FF444A] rounded-md text-white -mt-28 absolute ml-10">
+        <button
+          className="inline-flex p-5 justify-center items-center gap-2  rounded-md text-white -mt-28 absolute ml-10"
+          style={cardStyle}
+        >
           Donate ${price}
         </button>
       </div>
