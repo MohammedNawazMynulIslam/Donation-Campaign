@@ -24,6 +24,10 @@ const ViewDetails = ({ card }) => {
         >
           Donate ${price}
         </button>
+        <div
+          className="w-[1320px] h-[130px] bg-black absolute -mt-32"
+          style={{ opacity: 0.5 }}
+        ></div>
       </div>
       <p className="text-[#0B0B0B] font-bold text-4xl my-12">{category}</p>
       <p>
